@@ -9,7 +9,7 @@ export default function App() {
   const [error, setError] = useState(null);
   const [activeTab, setActiveTab] = useState(localStorage.getItem("selected_tab") || "TIMELINE");
   const [loadingExtra, setLoadingExtra] = useState(false);
-  const [extraMessage, setExtraMessage] = useState(null); // null initially
+  const [extraMessage, setExtraMessage] = useState(null);
   const [loadedIds, setLoadedIds] = useState(new Set());
 
   useEffect(() => {
@@ -27,7 +27,7 @@ export default function App() {
 
   const handleLoadExtra = () => {
     setLoadingExtra(true);
-    setExtraMessage(null); // Clear previous message on new click
+    setExtraMessage(null);
 
     fetch(API_URL)
       .then((res) => {
@@ -86,7 +86,7 @@ export default function App() {
           </button>
           {extraMessage !== null && (
             <span style={{ marginTop: "5px", fontWeight: "bold", color: "#ccc" }}>
-              {extraMessage} 
+              {extraMessage}
             </span>
           )}
         </div>
@@ -161,6 +161,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
