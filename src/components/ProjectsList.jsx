@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 
+
+
+
 const API_URL = "https://api.aixbt.tech/terminal/projects/xrp/summaries";
 const TABS = ["TIMELINE", "INFOS"];
 
