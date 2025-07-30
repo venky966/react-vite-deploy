@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-vite-deploy/static/css/main.d1ec4063.css",
+    "main.js": "/react-vite-deploy/static/js/main.9d4eb44c.js",
+    "static/js/453.83ea5788.chunk.js": "/react-vite-deploy/static/js/453.83ea5788.chunk.js",
+    "index.html": "/react-vite-deploy/index.html",
+    "main.d1ec4063.css.map": "/react-vite-deploy/static/css/main.d1ec4063.css.map",
+    "main.9d4eb44c.js.map": "/react-vite-deploy/static/js/main.9d4eb44c.js.map",
+    "453.83ea5788.chunk.js.map": "/react-vite-deploy/static/js/453.83ea5788.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1ec4063.css",
+    "static/js/main.9d4eb44c.js"
+  ]
+}
